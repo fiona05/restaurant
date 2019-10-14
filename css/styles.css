@@ -1,0 +1,90 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+.text-upper{
+    text-transform: uppercase;
+}
+
+
+/***************header****************** */
+.logo{
+    font-size: 37px;
+}
+.text-nav{
+    font-size: 17.33px;
+}
+
+
+/************** carrousel ***************/
+.title-carrou{
+    font-size: 61.33px;
+}
+.p-carrou{
+    font-size: 16px;
+}
+.p-btn{
+    font-size: 17.33px;
+}
+
+
+/************* service *****************/
+.title-service{
+    font-size: 42.66px;
+}
+.p-service{
+    font-size: 16px;
+}
+
+
+/****************Latest*************** */
+.title-latest{
+    font-size: 42.66px;
+}
+.p-latest{
+    font-size: 18.66px;
+    text-transform: uppercase;
+}
+
+
+/****************footer*************** */
+/* blog*************************** */
+.p-title{
+    font-size: 21.33px;
+}
+.p-post-title{
+    font-size: 17.33px;
+}
+.p-admin .p-friday{
+    font-size: 13.33px;
+}
+.p-vestibul{
+    font-size: 17.33px;
+}
+.p-read-more{
+    font-size: 17.33px;
+}
+
+/* links**************************** */
+.p-lorem{
+    font-size: 17.33px;
+}
+
+/* tweet *****************************/
+.p-tweet{
+    font-size: 17.33px;
+}
+
+/* contact *****************************/
+.p-contact{
+    font-size: 17.33px;
+}
+.submit{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* copyright ***************************/
+.p-copyright{
+    font-size: 16px;
+}
