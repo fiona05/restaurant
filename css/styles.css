@@ -1,5 +1,5 @@
 
-/*---------- GENERAL ----------**********************************/
+/*---------- general ----------**********************************/
 html:root{
     --green: rgb(118, 195, 143);
     --dark-red: rgb(41, 0, 0);
@@ -14,8 +14,8 @@ body{
     margin: 0;
 }
 
-/*---------- COLOR SYSTEM ----------******************************/
-/*background*/
+/*---------- background system ----------******************************/
+
 .bg-color-dark-red{
     background-color: var(--dark-red);
 }
@@ -40,7 +40,7 @@ body{
     background-color: var(--medium-grey);
 }
 
-/*-- CONTAINER SYSTEM --*****************************************/
+/*---- container system --*****************************************/
 
 .container-fluid, .row{
     width: 100%;
@@ -59,7 +59,7 @@ body{
 }
 
 
-/*---------- flex system ----------*****************************/
+/*---------- flex system ----------*******************************/
 .d-flex{
     display: flex;
 }
@@ -107,24 +107,79 @@ ul > li.activ{
 
 }
 
-/*---------- header section ----------*****************************/
+/********--------- header section ----------*****************************/
 header{
     min-height: 603px;
 }
 
-/*---------- main section ----------********************************/
+/********-------- main section ----------********************************/
 main{
     min-height: 975px;
 }
 
-/*---------- contact section ----------****************************/
+/*******---------- contact section ----------****************************/
 .contact{
     min-height: 388px;
 }
 
-/*---------- footer section ----------***************************/
+/**********-------- footer section ----------***************************/
 footer{
     min-height: 62px;
 }
 
-/*---------- ----------*/
+/************---------- text section-------*******************************/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.text-upper{
+    text-transform: uppercase;
+}
+
+.title-header{
+    font-size: 37px;
+}
+
+.text-link-green{
+    font-size: 17.33px;
+}
+
+.title-carrou{
+    font-size: 61.33px;
+}
+
+.text-carrou{
+    font-size: 16px;
+}
+
+.title-service{
+    font-size: 42.66px;
+}
+.text-service{
+    font-size: 16px;
+}
+
+.title-latest{
+    font-size: 42.66px;
+}
+
+.text-latest{
+    font-size: 18.66px;
+}
+
+.title-footer{
+    font-size: 21.33px;
+}
+
+.subtitle-footer{
+    font-size: 13.33px;
+}
+
+.text-footer{
+    font-size: 17.33px;
+}
+
+.text-copyright{
+    font-size: 16px;
+}
