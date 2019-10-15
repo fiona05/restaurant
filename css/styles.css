@@ -127,7 +127,7 @@ ul > li.activ{
 /************---------- text system  -------*******************************/
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
+    color:white;
 }
 
 .text-upper{
@@ -190,6 +190,13 @@ header{
 main{
     min-height: 975px;
 }
+
+/* service */
+
+.font-color{
+    color: var(--medium-grey);
+}
+
 
 /*******---------- contact section ----------****************************/
 .contact{
