@@ -107,26 +107,6 @@ ul > li.activ{
 
 }
 
-/********--------- header section ----------*****************************/
-header{
-    min-height: 603px;
-}
-
-/********-------- main section ----------********************************/
-main{
-    min-height: 975px;
-}
-
-/*******---------- contact section ----------****************************/
-.contact{
-    min-height: 388px;
-}
-
-/**********-------- footer section ----------***************************/
-footer{
-    min-height: 62px;
-}
-
 /************---------- text section-------*******************************/
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -183,3 +163,24 @@ body{
 .text-copyright{
     font-size: 16px;
 }
+
+/********--------- header section ----------*****************************/
+header{
+    min-height: 603px;
+}
+
+/********-------- main section ----------********************************/
+main{
+    min-height: 975px;
+}
+
+/*******---------- contact section ----------****************************/
+.contact{
+    min-height: 388px;
+}
+
+/**********-------- footer section ----------***************************/
+footer{
+    min-height: 62px;
+}
+
