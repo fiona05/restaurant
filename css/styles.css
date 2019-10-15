@@ -1,15 +1,123 @@
+/*---------- GENERAL ----------*/
+html:root{
+    --green: rgb(118, 195, 143);
+    --dark-red: rgb(41, 0, 0);
+    --light-red: rgb(102, 0, 0);
+    --dark-grey: rgb(21, 21, 21);
+    --light-grey: rgb(48, 48,48);
+    --medium-grey: rgb(34, 34, 34);
+    --white: white;
+}
+
+body{
+    margin: 0;
+}
+
+/*-- CONTAINER SYSTEM --*/
+
+.container-fluid, .row{
+    width: 100%;
+    margin: 0;
+}
+
+.container{ 
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.col{
+    margin: 0;
+    padding: 15px;
+}
+
+/*---------- COLOR SYSTEM ----------*/
+/*background*/
+.bg-color-dark-red{
+    background-color: var(--dark-red);
+}
+
+.bg-color-light-red{
+    background-color: var(--light-red);
+}
+
+.bg-color-green{
+    background-color: var(--green);
+}
+
+.bg-color-light-grey{
+    background-color: var(--light-grey);
+}
+
+.bg-color-dark-grey{
+    background-color: var(--dark-grey);
+}
+/*couleur formulaire*/
+.bg-form-area{
+    background-color: var(--medium-grey);
+}
+
+
+/********************** systeme flexbox ***********************/
+.d_flex{
+    display: flex;
+}
+
+.f_justify_content_between{
+    justify-content: space-between;
+}
+
+.f_justify_content_center{
+    justify-content: center;
+} 
+
+.f_align_items_center{
+    align-items: center;
+}
+
+.f_column{
+    flex-direction: column;
+}
+
+.f_wrap{         /* latest work */
+    flex-wrap: wrap;
+}
+
+/************************ system link ***************************/
+a:link, a:visited, a:active{                             
+    text-decoration: none;
+    color: var(--white);            
+}
+
+/************************* system list ****************************/
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul > li{
+    min-width: 110px;               
+    text-align: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+ul > li.active{
+}
+
+/*---------- ----------*/
 header{
-    max-width: 603px;
+    min-height: 603px;
 }
 
 main{
-    max-height: 975px;
+    min-height: 975px;
 }
 
 .contact{
-    max-width: 388px;
+    min-height: 388px;
 }
 
 footer{
-    max-height: 62px;
+    min-height: 62px;
 }
