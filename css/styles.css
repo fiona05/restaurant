@@ -66,6 +66,11 @@ body{
     margin: 0;
 }
 
+.header-row{
+    border-top: 5px solid var(--green);
+    background-color: var(--dark-red);
+}
+
 .container{ 
     width: 80%;
     max-width: 960px;
@@ -109,6 +114,15 @@ a:link, a:visited, a:active{
     color: var(--white);            
 }
 
+/* button system */
+
+.button{
+    background-color: var(--green);
+    border-radius: 13px;
+    width: 142px;
+}
+
+
 /************************* list system ****************************/
 ul{
     list-style: none;
@@ -116,14 +130,15 @@ ul{
 }
 
 ul > li{
-    min-width: 110px;               
+    font-size: 13px;
     text-align: center;
-    padding: 8px;
+    padding: 10px 19px 10px 19px;
     box-sizing: border-box;
 }
 
-ul > li.activ{
-
+ul > li.active{
+    background-color: var(--green);
+    border-radius: 13px;
 }
 
 /************---------- text system  -------*******************************/
@@ -133,7 +148,16 @@ ul > li.activ{
 }
 
 .title-header{
-    font-size: 37px;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.subtitle-header{
+    font-size: 12px;
+    margin: 0;
+    color: #979797;
+    line-height: 4px;
 }
 
 .text-link-green{
@@ -142,10 +166,19 @@ ul > li.activ{
 
 .title-carrou{
     font-size: 61.33px;
+    margin: 0;
 }
 
 .text-carrou{
+    font-size: 14px;
+    line-height: 23px;
+    color: #979797;
+    margin: 16px 0 25px 0;
+}
+
+.text-carrou-read{
     font-size: 16px;
+    padding: 13px 5px 12px 11px;
 }
 
 .title-service{
@@ -186,6 +219,13 @@ ul > li.activ{
 header{
     min-height: 603px;
 }
+
+.slide{
+    border: 26px solid grey;
+    border-radius: 50%;
+    margin: 20px 0 50px 0;
+}
+
 
 /********-------- main section ----------********************************/
 main{
