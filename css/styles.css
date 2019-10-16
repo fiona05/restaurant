@@ -229,16 +229,15 @@ main{
     opacity: .5;
 }
 
+/* LATEST WORK */
 
-
-/******----------LATEST WORK------------******/
 .blablabla{
     height: 4px;
 }
 
 .border{
     height: 4px;
-    background-color: var(--light-grey);
+    background-color: var(--medium-grey);
     margin-top: -18.5px;
     margin-bottom: 40px;
 } 
