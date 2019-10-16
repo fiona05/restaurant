@@ -233,6 +233,95 @@ main{
 }
 
 
+
+/******----------LATEST WORK------------******/
+.blablabla{
+    height: 4px;
+}
+
+.border{
+    height: 4px;
+    background-color: var(--light-grey);
+    margin-top: -18.5px;
+    margin-bottom: 40px;
+} 
+
+.latest-work{
+    /* margin-top: 100px; */
+    min-height: 570px;
+    /* background-color: var(--light-red); */
+}
+.bg-color-medium-grey{
+    background-color: var(--medium-grey);
+}
+
+.title-latest-work{
+    border-radius: 10px;
+    /* text-align: center;*/
+    margin: 0 auto;
+    padding: 5px; 
+    /*width: 25%;*/
+}
+
+.div-photo-size{
+    width: 290px;
+    height: 190px;
+    border: 5px solid white;
+    margin-bottom: 20px;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.img-div-photo-size1{
+    background-image: url(../media/1.jpg);
+}
+
+.img-div-photo-size2{
+    background-image: url(../media/1.jpg);
+}
+
+.img-div-photo-size3{
+    background-image: url(../media/1.jpg);
+}
+
+.img-div-photo-size4{
+    background-image: url(../media/1.jpg);
+}
+
+.img-div-photo-size5{
+    background-image: url(../media/1.jpg);
+}
+
+.img-div-photo-size6{
+    background-image: url(../media/1.jpg);
+}
+
+.img-photo-size{
+    width: 290px;
+    height: 190px;
+}
+
+.div-photo-size:hover{
+    border: 5px solid var(--green);
+}
+
+.div-photo-size:hover .latest-work-p{
+    display:none;
+}
+
+.latest-work-p{
+    text-align: center;
+    background: var(--dark-grey);
+    opacity: 0.7;
+    height: 20px;
+    padding:5px 0;
+    margin: 0;
+    /* margin-top: px; */
+}
+
+
 /*******---------- contact section ----------****************************/
 .contact{
     min-height: 388px;
