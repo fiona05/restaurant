@@ -232,13 +232,13 @@ main{
 
 
 /******----------LATEST WORK------------******/
-.blablabla{
+.m-h-title{
     height: 4px;
 }
 
 .border{
     height: 4px;
-    background-color: var(--light-grey);
+    background-color: var(--medium-grey);
     margin-top: -18.5px;
     margin-bottom: 40px;
 } 
@@ -272,27 +272,27 @@ main{
 }
 
 .img-div-photo-size1{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-1.jpg);
 }
 
 .img-div-photo-size2{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-2.jpg);
 }
 
 .img-div-photo-size3{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-3.jpg);
 }
 
 .img-div-photo-size4{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-4.jpg);
 }
 
 .img-div-photo-size5{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-5.jpg);
 }
 
 .img-div-photo-size6{
-    background-image: url(../media/1.jpg);
+    background-image: url(../media/latest-work-6.jpg);
 }
 
 .img-photo-size{
