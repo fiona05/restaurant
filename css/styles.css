@@ -178,6 +178,13 @@ main{
 }
 
 /*******---------- contact section ----------****************************/
+footer{
+    min-height: 62px;
+}
+a:hover{
+    color: var(--green);
+}
+
 .container-fluid-contact{
     min-height: 388px;
     width: 100%;
@@ -185,8 +192,6 @@ main{
 }
 .fluid-height{
     height: 400px;
-}
-
 }
 .d-flex{
     display: flex;
@@ -236,14 +241,7 @@ main{
     padding-left: 10px;
     border: none;
     border-radius: 10px;
-    background-color: var(--white);
-}
-
-/* colone 1 */
-
-/**********-------- footer section ----------***************************/
-footer{
-    min-height: 62px;
+    background-color: var(--green);
 }
 
 
