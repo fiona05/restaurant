@@ -243,6 +243,14 @@ a:hover{
     border-radius: 10px;
     background-color: var(--green);
 }
+.copyright{
+    min-height: 61px;
+}
+.separation{
+    background-color: var(--dark-grey);
+    height: 3px;
+    border-bottom: 2px solid var(--light-grey);
+}
 
 
 
