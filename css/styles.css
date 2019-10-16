@@ -124,6 +124,11 @@ ul > li.active{
     border-radius: 13px;
 }
 
+ul > li:hover{
+    background-color: var(--green);
+    border-radius: 13px;
+}
+
 /************---------- text system  -------*******************************/
 
 body{
