@@ -14,23 +14,6 @@ body{
     margin: 0;
 }
 
-/*-- container system----------*****************************************/
-
-.container-fluid, .row{
-    width: 100%;git 
-    margin: 0;
-}
-
-.container{ 
-    width: 80%;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.col{
-    margin: 0;
-    padding: 15px;
-}
 /*---------- background system ----------******************************/
 
 .bg-color-dark-red{
@@ -75,8 +58,8 @@ body{
     padding: 15px;
 }
 
-
 /*---------- flex system ----------*******************************/
+
 .d-flex{
     display: flex;
 }
@@ -97,17 +80,19 @@ body{
     flex-direction: column;
 }
 
-.f_wrap{         /* latest work */
+.f_wrap{         
     flex-wrap: wrap;
 }
 
 /************************ link system ***************************/
+
 a:link, a:visited, a:active{                             
     text-decoration: none;
     color: var(--white);            
 }
 
 /************************* list system ****************************/
+
 ul{
     list-style: none;
     padding: 0;
@@ -125,6 +110,7 @@ ul > li.activ{
 }
 
 /************---------- text system  -------*******************************/
+
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
@@ -151,12 +137,12 @@ body{
 }
 
 .title-service{
-    font-size: 2em;
+    font-size: 32px;
     margin: 0 0 10px 0;
 }
 
 .text-service{
-    font-size: 1em;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -185,11 +171,13 @@ body{
 }
 
 /********--------- header section ----------*****************************/
+
 header{
     min-height: 603px;
 }
 
 /********-------- main section ----------********************************/
+
 main{
     min-height: 975px;
 }
@@ -233,11 +221,13 @@ main{
 
 
 /*******---------- contact section ----------****************************/
+
 .contact{
     min-height: 388px;
 }
 
 /**********-------- footer section ----------***************************/
+
 footer{
     min-height: 62px;
 }
