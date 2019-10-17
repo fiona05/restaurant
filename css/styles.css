@@ -444,8 +444,33 @@ main{
 }
 /********************* max-width: 991px *****************************************/
 @media (min-width: 768px) and (max-width: 991px){
+    header{
+        min-height: 400px;
+    }
     .container{
         width: 100%;
+    }
+    .title-carrou{
+        font-size: 40px;
+    }
+    .text-carrou{
+        font-size: 16px;
+    }
+    .button{
+        width: 130px;
+    }
+    .slide{
+        width: 250px;
+        height: 250px;
+    }
+    .bg-service-title{
+        width: 210px;
+    }
+    .title-service{
+        font-size: 1.8em;
+    }
+    .title-latest-work{
+        font-size: 1.8em;
     }
 }
 /********************* max-width: 767px *****************************************/
