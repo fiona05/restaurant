@@ -47,7 +47,7 @@ body{
     margin: 0;
 }
 
-.header-row{
+.header-menu{
     border-top: 5px solid var(--green);
     background-color: var(--dark-red);
 }
