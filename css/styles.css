@@ -8,6 +8,7 @@ html:root{
     --light-grey: rgb(151, 151, 151);
     --medium-grey: rgb(34, 34, 34);
     --footer-grey: #666666;
+    --copyright-grey: #1b1a1a;
     --white: white;
 }
 
@@ -60,6 +61,10 @@ body{
     background-color: var(--medium-grey);
 }
 
+.bg-copyright{
+    background-color: var(--copyright-grey);
+}
+
 /*---- container system --*****************************************/
 
 .container-fluid, .row{
@@ -82,7 +87,6 @@ body{
     margin: 0;
     padding: 15px;
 }
-
 
 /*---------- flex system ----------*******************************/
 
@@ -124,7 +128,6 @@ a:link, a:visited, a:active{
     width: 142px;
 }
 
-
 /************************* list system ****************************/
 ul{
     list-style: none;
@@ -139,11 +142,6 @@ ul > li{
 }
 
 ul > li.active{
-    background-color: var(--green);
-    border-radius: 13px;
-}
-
-ul > li:hover{
     background-color: var(--green);
     border-radius: 13px;
 }
@@ -215,7 +213,8 @@ ul > li:hover{
 }
 
 .text-copyright{
-    font-size: 16px;
+    font-size: 14px;
+    color:var(--light-grey);
 }
 
 /********--------- header section ----------*****************************/
@@ -225,7 +224,7 @@ header{
 }
 
 .slide{
-    border: 26px solid grey;
+    border: 26px solid #6b6b6b;
     border-radius: 50%;
     margin: 20px 0 50px 0;
 }
@@ -360,8 +359,12 @@ main{
 
 /*******---------- footer section ----------****************************/
 
-footer{
+.footer-height{
     min-height: 385px;
+}
+
+.footer-pdg{
+    padding: 40px 0;
 }
 
 .footer-col{
@@ -419,5 +422,16 @@ footer{
 
 /******* copyright *********/
 
-/* min:height: 62px;  */
+.copyright-height{
+    min-height: 61px;
+}
 
+.border-split{
+    background-color: var(--dark-grey);
+    height: 3px;
+    border-bottom: 2px solid var(--medium-grey);
+}
+
+.copyright-pdg {
+    padding: 10px 0;
+}
