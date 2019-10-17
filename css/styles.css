@@ -58,11 +58,6 @@ body{
     margin: 0 auto;
 }
 
-.col{
-    margin: 0;
-    padding: 15px;
-}
-
 /*---------- flex system ----------*******************************/
 
 .d-flex{
@@ -212,12 +207,69 @@ body{
 
 header{
     min-height: 603px;
+    background-color: var(--dark-red);
 }
 
+/* carousel */
 .slide{
     border: 26px solid grey;
     border-radius: 50%;
-    margin: 20px 0 50px 0;
+    margin: 50px 0 70px 0;
+}
+
+.carousel-container {
+    width: 80%;
+    min-width: 960px;
+    position: relative;
+    margin: auto;
+}
+  
+/* cacher image */
+.mySlides {
+    display: none;
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 33%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: rgb(118, 195, 143);
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+  
+/* position du bouton next et prev */
+  
+.next {
+right: 20%;
+}
+  
+.prev {
+left: 20%;
+}
+  
+/* hover  */
+  
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+  
+/* animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
