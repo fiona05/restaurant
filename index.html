@@ -157,11 +157,11 @@
                 </div>
                 <div class="footer-col">
                     <p class="title-footer">Contact Us</p>
-                    <form>
-                        <input type="text" class="input" placeholder="Full name">
-                        <input type="text" class="input" placeholder="Email Address">
-                        <input type="text" class="input" placeholder="Subject">
-                        <textarea class="textarea" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <form onsubmit="return verif()">
+                        <input type="text" class="input" placeholder="Full name" id="full_name" onblur="verifFullName(this)">
+                        <input type="text" class="input" placeholder="Email Address" id="mail" onblur="verifMail(this)">
+                        <input type="text" class="input" placeholder="Subject" id="subject" onblur="verifSubject(this)">
+                        <textarea class="textarea" name="message" cols="30" rows="10" placeholder="Message" id="message" onblur="verifMessage(this)"></textarea>
                         <input class="submit" type="submit" value="SUBMIT">
                     </form>
                 </div>
@@ -176,6 +176,6 @@
                 </div>
             </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 </html>

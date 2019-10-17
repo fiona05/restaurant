@@ -1,7 +1,7 @@
 
 /*---------- general ----------**********************************/
 html:root{
-    --green: rgb(118, 195, 143);
+    --green: #76c38f;
     --dark-red: rgb(41, 0, 0);
     --light-red: rgb(102, 0, 0);
     --dark-grey: rgb(21, 21, 21);
@@ -398,6 +398,7 @@ main{
     border: none;
     border-radius: 10px;
     background-color: var(--dark-grey);
+    color: var(--white);
 }
 
 .textarea{
@@ -408,6 +409,39 @@ main{
     border-radius: 15px;
     background-color: var(--dark-grey);
     padding-left: 10px;
+    color: var(--white);
+}
+
+textarea::-webkit-input-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+textarea:-ms-input-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+textarea:-moz-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+textarea::-moz-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input::-webkit-input-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+input:-ms-input-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+input:-moz-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+input::-moz-placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .submit{
@@ -463,14 +497,24 @@ main{
         width: 250px;
         height: 250px;
     }
+    main{
+        min-height:930px;
+    }
     .bg-service-title{
         width: 210px;
     }
     .title-service{
         font-size: 1.8em;
     }
+    .latest-work{
+        min-height: 530px;
+    }
     .title-latest-work{
         font-size: 1.8em;
+    }
+    .footer-col{
+        width: 240px;
+        padding: 0 10px;
     }
 }
 /********************* max-width: 767px *****************************************/

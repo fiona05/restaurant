@@ -1,8 +1,8 @@
 function surligne(champ, erreur){
     if(erreur)
-    champ.style.backgroundColor = "#ff2121"
+    champ.style.backgroundColor = "#ff9f9f"
     else
-    champ.style.backgroundColor = "#00b018"
+    champ.style.backgroundColor = "#76c38f"
 }
 
 
