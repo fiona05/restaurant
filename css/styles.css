@@ -1,12 +1,14 @@
 
 /*---------- general ----------**********************************/
 html:root{
-    --green: rgb(118, 195, 143);
+    --green: #76c38f;
     --dark-red: rgb(41, 0, 0);
     --light-red: rgb(102, 0, 0);
     --dark-grey: rgb(21, 21, 21);
-    --light-grey: rgb(48, 48, 48);
+    --light-grey: rgb(151, 151, 151);
     --medium-grey: rgb(34, 34, 34);
+    --footer-grey: #666666;
+    --copyright-grey: #1b1a1a;
     --white: white;
 }
 
@@ -59,11 +61,20 @@ body{
     background-color: var(--medium-grey);
 }
 
+.bg-copyright{
+    background-color: var(--copyright-grey);
+}
+
 /*---- container system --*****************************************/
 
 .container-fluid, .row{
     width: 100%;
     margin: 0;
+}
+
+.header-row{
+    border-top: 5px solid var(--green);
+    background-color: var(--dark-red);
 }
 
 .container{ 
@@ -77,8 +88,8 @@ body{
     padding: 15px;
 }
 
-
 /*---------- flex system ----------*******************************/
+
 .d-flex{
     display: flex;
 }
@@ -106,7 +117,15 @@ body{
 /************************ link system ***************************/
 a:link, a:visited, a:active{                             
     text-decoration: none;
-    color: var(--white);            
+    color: currentColor;           
+}
+
+/* button system */
+
+.button{
+    background-color: var(--green);
+    border-radius: 13px;
+    width: 142px;
 }
 
 /************************* list system ****************************/
@@ -116,14 +135,15 @@ ul{
 }
 
 ul > li{
-    min-width: 110px;               
+    font-size: 13px;
     text-align: center;
-    padding: 8px;
+    padding: 10px 19px 10px 19px;
     box-sizing: border-box;
 }
 
-ul > li.activ{
-
+ul > li.active{
+    background-color: var(--green);
+    border-radius: 13px;
 }
 
 /************---------- text system  -------*******************************/
@@ -133,19 +153,38 @@ ul > li.activ{
 }
 
 .title-header{
-    font-size: 37px;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.subtitle-header{
+    font-size: 12px;
+    margin: 0;
+    color: #979797;
+    line-height: 4px;
 }
 
 .text-link-green{
     font-size: 17.33px;
+    color: var(--green);
 }
 
 .title-carrou{
     font-size: 61.33px;
+    margin: 0;
 }
 
 .text-carrou{
+    font-size: 14px;
+    line-height: 23px;
+    color: #979797;
+    margin: 16px 0 25px 0;
+}
+
+.text-carrou-read{
     font-size: 16px;
+    padding: 13px 5px 12px 11px;
 }
 
 .title-service{
@@ -158,34 +197,38 @@ ul > li.activ{
     margin: 0;
 }
 
-.title-latest{
-    font-size: 42.66px;
-}
-
-.text-latest{
-    font-size: 18.66px;
-}
-
 .title-footer{
     font-size: 21.33px;
+    color: var(--white);
 }
 
 .subtitle-footer{
-    font-size: 13.33px;
+    font-size: 10px;
+    color:var(--light-grey);
 }
 
 .text-footer{
-    font-size: 17.33px;
+    font-size: 16px;
+    color:var(--light-grey);
 }
 
 .text-copyright{
-    font-size: 16px;
+    font-size: 14px;
+    color:var(--light-grey);
 }
 
 /********--------- header section ----------*****************************/
+
 header{
     min-height: 603px;
 }
+
+.slide{
+    border: 26px solid #6b6b6b;
+    border-radius: 50%;
+    margin: 20px 0 50px 0;
+}
+
 
 /********-------- main section ----------********************************/
 main{
@@ -229,9 +272,8 @@ main{
     opacity: .5;
 }
 
+/* LATEST WORK */
 
-
-/******----------LATEST WORK------------******/
 .m-h-title{
     height: 4px;
 }
@@ -244,20 +286,17 @@ main{
 } 
 
 .latest-work{
-    /* margin-top: 100px; */
     min-height: 570px;
-    /* background-color: var(--light-red); */
 }
+
 .bg-color-medium-grey{
     background-color: var(--medium-grey);
 }
 
 .title-latest-work{
     border-radius: 10px;
-    /* text-align: center;*/
     margin: 0 auto;
     padding: 5px; 
-    /*width: 25%;*/
 }
 
 .div-photo-size{
@@ -315,16 +354,105 @@ main{
     height: 20px;
     padding:5px 0;
     margin: 0;
-    /* margin-top: px; */
 }
 
 
-/*******---------- contact section ----------****************************/
-.contact{
-    min-height: 388px;
+/*******---------- footer section ----------****************************/
+
+.footer-height{
+    min-height: 385px;
 }
 
-/**********-------- footer section ----------***************************/
-footer{
-    min-height: 62px;
+.footer-pdg{
+    padding: 40px 0;
+}
+
+.footer-col{
+    width: 225px;
+    margin: 0;
+    padding: 0;
+}
+
+.li-contact{
+    color: var(--green);
+    padding-left: 0;
+    padding-bottom: 12px;
+    text-align: left;
+    border-bottom: 1px solid var(--footer-grey);
+}
+
+.subtitle-footer-admin{
+    color: var(--footer-grey);
+    font-size: 10px;
+}
+
+.color-g{
+    color:var(--footer-grey);
+}
+
+.input{
+    width: 100%;
+    height: 34px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--dark-grey);
+}
+
+.textarea{
+    width: 100%;
+    height: 105px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--dark-grey);
+    padding-left: 10px;
+}
+
+.submit{
+    width: 75px;
+    height: 34px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--green);
+    font-weight: bold;
+}
+
+/******* copyright *********/
+
+.copyright-height{
+    min-height: 61px;
+}
+
+.border-split{
+    background-color: var(--dark-grey);
+    height: 3px;
+    border-bottom: 2px solid var(--medium-grey);
+}
+
+.copyright-pdg {
+    padding: 10px 0;
+}
+
+/************************** MEDIAQUERIES *********************************/
+
+/********************* max-width: 1200px *****************************************/
+@media (min-width: 992px) and (max-width: 1200px){
+
+}
+/********************* max-width: 991px *****************************************/
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 100%;
+    }
+}
+/********************* max-width: 767px *****************************************/
+@media (min-width: 576px) and (max-width: 767px){
+
+}
+/********************* max-width: 575px *****************************************/
+@media (max-width: 575px){
+
 }
