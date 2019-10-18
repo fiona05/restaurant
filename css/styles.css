@@ -58,10 +58,23 @@ body{
     margin: 0 auto;
 }
 
+/* .col{
+    margin: 0;
+    padding: 15px;
+} */
+
+.w-5{
+    min-width: 33px;
+}
+
 /*---------- flex system ----------*******************************/
 
 .d-flex{
     display: flex;
+}
+
+.f-justify-content-around{
+    justify-content: space-around;
 }
 
 .f-justify-content-between{
@@ -204,53 +217,35 @@ header{
     background-color: var(--dark-red);
 }
 
-/* carousel */
+
+
+/***** carousel *****/
 .slide{
     border: 26px solid grey;
     border-radius: 50%;
     margin: 50px 0 70px 0;
 }
-
-.carousel-container {
-    width: 80%;
-    min-width: 960px;
-    position: relative;
-    margin: auto;
-}
   
-/* cacher image */
 .mySlides {
     display: none;
+}
+
+.left-arrow{
+    display: flex;
+    text-align: left;
 }
   
 /* Next & previous buttons */
 .prev, .next {
-cursor: pointer;
-position: absolute;
-top: 33%;
-width: auto;
-margin-top: -22px;
-padding: 16px;
-color: rgb(118, 195, 143);
-transition: 0.6s ease;
-border-radius: 0 3px 3px 0;
-user-select: none;
+    cursor: pointer;
+    padding: 20px;
+    color: rgb(118, 195, 143);
+    transition: 0.6s ease;
+    user-select: none;
 }
-  
-/* position du bouton next et prev */
-  
-.next {
-right: 20%;
-}
-  
-.prev {
-left: 20%;
-}
-  
-/* hover  */
-  
-.prev:hover, .next:hover {
-background-color: rgba(0,0,0,0.8);
+
+.prev{
+    left: 15px;
 }
   
 /* animation */
@@ -265,6 +260,7 @@ background-color: rgba(0,0,0,0.8);
     from {opacity: .4}
     to {opacity: 1}
 }
+/****** fin du carousel *****/
 
 
 /********-------- main section ----------********************************/
