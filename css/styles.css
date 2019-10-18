@@ -154,6 +154,7 @@ ul > li.active{
     background-color: var(--green);
     border-radius: 13px;
 }
+
 /************---------- text system  -------*******************************/
 
 .text-upper{
@@ -424,7 +425,7 @@ main{
 }
 
 .footer-col{
-    width: 25%;
+    width: 225px;
     margin: 0;
     padding: 0;
 }
@@ -532,13 +533,6 @@ input::-moz-placeholder {
 @media (max-width: 1200px){
 }
 
-
-
-/* .footer-col{
-    padding: 0 20px;
-} */
-
-
 /********************* max-width: 991px *****************************************/
 @media (max-width: 991px){
     header{
@@ -575,12 +569,10 @@ input::-moz-placeholder {
     .title-latest-work{
         font-size: 1.8em;
     }
-
-    .footer-pdg{
-        flex-wrap: wrap;
-    } 
-
-
+    .footer-col{
+        width: 240px;
+        padding: 0 10px;
+    }
 }
 /********************* max-width: 767px *****************************************/
 @media (max-width: 767px){
