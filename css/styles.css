@@ -570,8 +570,10 @@ input::-moz-placeholder {
         height: 250px;
     }
     .bg-service-title{
-        width: 40%;
+        width: 30%;
+        margin: 10px 20px 20px 20px;
     }
+
     .title-service{
         font-size: 1.7em;
     }
