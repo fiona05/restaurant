@@ -84,15 +84,6 @@ body{
     margin: 0 auto;
 }
 
-/* .col{
-    margin: 0;
-    padding: 15px;
-} */
-
-.w-5{
-    min-width: 33px;
-}
-
 /*---------- flex system ----------*******************************/
 
 .d-flex{
@@ -576,6 +567,7 @@ input::-moz-placeholder {
 }
 /********************* max-width: 767px *****************************************/
 @media (max-width: 767px){
+
     .spanburger{
         display:block;
     }
@@ -590,6 +582,7 @@ input::-moz-placeholder {
     color: var(--green);
     } 
 
+    /* menu burger mobile */
     #menuToggle{
     display: block;
     position: absolute;
@@ -676,6 +669,39 @@ input::-moz-placeholder {
     #menuToggle input:checked ~ ul{
     transform: none;
     }
+
+    /* media query container carousel */
+    .mq-container-carousel{
+        width: 90%;
+    }
+    
+    .fd-column-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .title-carrou{
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .text-carrou{
+        font-size: 13px;
+        line-height: 23px;
+        color: #979797;
+        margin: 16px 0 25px 0;
+    }
+    
+    
+    /* media query container latest-work */
+    .mq-container-lw{
+        width: 86%;
+    }
+
+    /* media query container service */
+    .mq-container-service{
+        width: 63%;
+    }
+
 }
     
 /********************* max-width: 575px *****************************************/
