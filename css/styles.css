@@ -531,6 +531,15 @@ input::-moz-placeholder {
 
 /********************* max-width: 1200px *****************************************/
 @media (max-width: 1200px){
+    .bg-service-title{
+        width: 180px;
+    }
+
+    .footer-col{
+        width: 180px;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 /********************* max-width: 991px *****************************************/
