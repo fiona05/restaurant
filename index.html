@@ -1,32 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>The Modernist restaurant / Cuisine de saison et gastronomique / Montréal</title>
+    <meta name="description" content="Bienvenue sur le site du restaurant The Modernist à
+    Monréal - Cuisine de saison et gastronomique, consultez des avis clients et
+    réservez en ligne votre table.">
+    <meta name="robots" content="all">
+    <meta name="keywords" content="the_Modernist, restaurant, Montréal, gastronomique, cuisine_saison,
+    guide_Michelin">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/carousel.js" async></script>
+    <!-- Facebook -->
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content="http://fionap.promo-vesoul33.codeur.online/restaurant/index.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="The Modernist restaurant / Cuisine de saison et gastronomique / Montréal">
+    <meta property="og:description" content="Bienvenue sur le site du restaurant The Modernist à
+    Monréal - Cuisine de saison et gastronomique, consultez des avis clients et
+    réservez en ligne votre table.">
+    <meta property="og:site_name" content="The Modernist restaurant">
+    <meta property="og:image" content="http://fionap.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
+    <meta property="og:image:width" content="380">
+    <meta property="og:image:height" content="380">
+    <meta property="og:image:alt" content="facebook_partage">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Modernist restaurant / Cuisine de saison et gastronomique / Montréal">
+    <meta name="twitter:description" content="Bienvenue sur le site du restaurant The Modernist à
+    Monréal - Cuisine de saison et gastronomique, consultez des avis clients et
+    réservez en ligne votre table.">
+    <meta name="twitter:site" content="https://twitter.com/The_Modernist_restaurant">
+    <meta name="twitter:image" content="http://fionap.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
+    <meta name="twitter:creator" content="">
+
 </head>
+
 <body>
-<!-- partie rayan -->
-<header class="container-fluid">
+    <!-- Header section -->
+    <header class="container-fluid">
         <div class="header-menu">
-            <div class="container d-flex f-justify-content-between f-align-items-center f_wrap">
+            <div class="container d-flex f-justify-content-between f-align-items-center f-wrap">
                 <div class="col">
                     <h1 class="title-header"><a href="#">The Modernist</a></h1>
                     <p class="subtitle-header">Free PSD Website Template</p>
                 </div>
                 <div class="col">
                     <nav>
-                        <ul class="d-flex text-upper">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">Style Demo</a></li>
-                            <li><a href="#">Full Width</a></li>
-                            <li><a href="#">Dropdown</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Gallery</a></li>
-                        </ul>
+                        <div id="menuToggle">
+                            <input type="checkbox" id="input-checkbox"/>
+                            <span class="spanburger"></span>
+                            <span class="spanburger"></span>
+                            <span class="spanburger"></span>
+                            <ul class="d-flex text-upper" id="menu">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Style Demo</a></li>
+                                <li><a href="#">Full Width</a></li>
+                                <li><a href="#">Dropdown</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Gallery</a></li>
+                            </ul>
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -85,43 +121,145 @@
                     </div>    
                 </div>
         </div>
-</header>
-    <!-- partie de Fiona -->
-    <main class="bg-color-light-red">
-        <div class="container-fluid section-service-size">
-            <div>
-            <div class="container container-service-pdg d-flex f-justify-content-between font-color text-align-center">
+    </header>
+    <!-- Service section -->
+    <main class="container-fluid bg-color-light-red">
+        <div class="section-service-size">
+            <div class="container f-wrap container-service-pdg d-flex f-justify-content-between font-color text-align-center">
                 <div class="d-flex f-column f-align-items-center bg-service-title">
-                    <p class="mrg-img"><img src="media/service-logo-1.png" class="opacity-img" alt="picture-plan-draw" width="120px" height="120px"></p>
-                    <p class="text-upper title-service">service title</p>
-                    <p class="text-service ">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    <a href="#"><p class="mrg-img"><img src="media/service-logo-1.png" class="opacity-img" alt="picture-plan-draw" width="120" height="120"></p>
+                                <p class="text-upper title-service">service title</p>
+                                <p class="text-service ">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    </a>
                 </div>
                 <div class="d-flex f-column f-align-items-center bg-service-title">
-                    <p class="mrg-img"><img src="media/service-logo-2.png" class="opacity-img" alt="picture-pc-statistic" width="120px" height="120px"></p>
-                    <p class="text-upper title-service">service title</p>
-                    <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    <a href="#"><p class="mrg-img"><img src="media/service-logo-2.png" class="opacity-img" alt="picture-pc-statistic" width="120" height="120"></p>
+                                <p class="text-upper title-service">service title</p>
+                                <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    </a>
                 </div>
                 <div class="d-flex f-column f-align-items-center bg-service-title">
-                    <p class="mrg-img"><img src="media/service-logo-3.png" class="opacity-img" alt="picture-model-architecture" width="120px" height="120px"></p>
-                    <p class="text-upper title-service">service title</p>
-                    <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    <a href="#"><p class="mrg-img"><img src="media/service-logo-3.png" class="opacity-img" alt="picture-model-architecture" width="120" height="120"></p>
+                                <p class="text-upper title-service">service title</p>
+                                <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    </a>
                 </div>
                 <div class="d-flex f-column f-align-items-center bg-service-title">
-                    <p class="mrg-img"><img src="media/service-logo-4.png" class="opacity-img" alt="picture-building" width="120px" height="120px"></p>
-                    <p class="text-upper title-service">service title</p>
-                    <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    <a href="#"><p class="mrg-img"><img src="media/service-logo-4.png" class="opacity-img" alt="picture-building" width="120" height="120"></p>
+                                <p class="text-upper title-service">service title</p>
+                                <p class="text-service">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
+                    </a>
                 </div>
-            </div>
             </div>
         </div>
+
+        <!-- Latest work section -->
+        <section class="container latest-work bg-color-light-red">
+            <div class="col d-flex f-column f-justify-content-center f-align-items-center m-h-title">
+                <h2 class="title-latest-work bg-color-medium-grey text-upper">latest work</h2>
+            </div>
+            <div class="border"></div>
+
+            <!-- <h2 class="title-latest-work">LATEST WORK</h2> -->
+            <div class="d-flex f-justify-content-between f-wrap">
+                <a href="#" target="_blank">
+                    <div class="div-photo-size img-div-photo-size1 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="div-photo-size img-div-photo-size2 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="div-photo-size img-div-photo-size3 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+                <a href="media/1.jpg" target="_blank">
+                    <div class="div-photo-size img-div-photo-size4 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="div-photo-size img-div-photo-size5 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+                <a href="#" target="_blank">
+                    <div class="div-photo-size img-div-photo-size6 d-flex">
+                        <p class="latest-work-p">LOREM IPSUM DOLOR</p>
+                    </div>
+                </a>
+            </div>
+        </section>
     </main>
-    
-    <!-- Partie Quentin -->
 
-
-    <!-- partie de Fiona -->
-    
-    
-    <!-- partis Hrod -->
+    <!-- Footer section -->
+    <footer>
+        <div class="container-fluid footer-height bg-color-medium-grey ">
+            <div class="container footer-pdg d-flex f-justify-content-between">
+                <div class="footer-col">
+                    <p class="title-footer">From the blog</p>
+                    <p class="text-link-green">Post Title</p>
+                    <p class="subtitle-footer-admin"><span class="text-link-green">Admin</span>, domainname.com</p>
+                    <p class="subtitle-footer">Friday, 6th April 2000</p>
+                    <p class="text-footer">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit
+                        intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.
+                        Namjusto cras urna urnaretra lor urna neque sed quis orci nulla.</p>
+                    <p class="text-link-green"><a href="read-more»">Read More»</a></p>
+                </div>
+                <div class="footer-col">
+                    <p class="title-footer">Quick Links</p>
+                    <ul>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Lorem ipsum dolor sit</a></li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Amet consectetur</a></li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Praesent vel sem id</a></li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Curabitur hendrerit est</a>
+                        </li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Aliquam eget erat nec
+                                sapien</a></li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Cras id augue nunc</a></li>
+                        <li class="li-contact"><a href="#"><span class="color-g">»</span> Sed a nulla urna</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="title-footer">Latest tweets</p>
+                    <p class="text-footer"><a href="@namehere"><span
+                                class="text-link-green ">@namehere</span></a>Justoid nonummy laoreet phasellent
+                        penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut
+                        vitae doloreet 1 day ago</p>
+                    <p class="text-footer"><a href="@namehere"><span
+                                class="text-link-green ">@namehere</span></a>Justoid nonummy laoreet phasellent
+                        penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut
+                        vitae doloreet 1 day ago</p>
+                </div>
+                <div class="footer-col">
+                    <p class="title-footer">Contact Us</p>
+                    <form onsubmit="return verif()">
+                        <input type="text" class="input" placeholder="Full name" id="full_name"
+                            onblur="verifFullName(this)">
+                        <input type="text" class="input" placeholder="Email Address" id="mail" onblur="verifMail(this)">
+                        <input type="text" class="input" placeholder="Subject" id="subject" onblur="verifSubject(this)">
+                        <textarea class="textarea" name="message" cols="30" rows="10" placeholder="Message" id="message"
+                            onblur="verifMessage(this)"></textarea>
+                        <input class="submit" type="submit" value="SUBMIT">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright section -->
+        <div class="container-fluid bg-copyright copyright-height">
+            <div class="border-split"></div>
+            <div class="container copyright-pdg d-flex f-justify-content-between">
+                <p class="text-copyright">Copyright © 2013 Domain Name - All Rights Reserved</p>
+                <p class="text-copyright">Template by OS Templates</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/carousel.js" async></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
