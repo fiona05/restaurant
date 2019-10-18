@@ -141,10 +141,7 @@ ul > li.active{
     background-color: var(--green);
     border-radius: 13px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 1025d8f3214473d877ca07f6af492cd6b67daf78
 /************---------- text system  -------*******************************/
 
 .text-upper{
@@ -306,7 +303,7 @@ main{
 }
 
 .section-service-size{
-    height: 400px;
+    min-height: 400px;
 }
 
 .container-service-pdg{
