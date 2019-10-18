@@ -531,6 +531,15 @@ input::-moz-placeholder {
 
 /********************* max-width: 1200px *****************************************/
 @media (max-width: 1200px){
+    .bg-service-title{
+        width: 180px;
+    }
+
+    .footer-col{
+        width: 180px;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 /********************* max-width: 991px *****************************************/
@@ -558,7 +567,7 @@ input::-moz-placeholder {
         min-height:930px;
     }
     .bg-service-title{
-        width: 210px;
+        width: 180px;
     }
     .title-service{
         font-size: 1.8em;
@@ -570,7 +579,7 @@ input::-moz-placeholder {
         font-size: 1.8em;
     }
     .footer-col{
-        width: 240px;
+        width: 180px;
         padding: 0 10px;
     }
 }
