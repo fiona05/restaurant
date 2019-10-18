@@ -106,7 +106,7 @@ body{
     flex-direction: column;
 }
 
-.f_wrap{         
+.f-wrap{         
     flex-wrap: wrap;
 }
 
@@ -534,11 +534,11 @@ input::-moz-placeholder {
 /************************** MEDIAQUERIES *********************************/
 
 /********************* max-width: 1200px *****************************************/
-@media (min-width: 992px) and (max-width: 1200px){
+@media (max-width: 1200px){
 }
 
 /********************* max-width: 991px *****************************************/
-@media (min-width: 768px) and (max-width: 991px){
+@media (max-width: 991px){
     header{
         min-height: 400px;
     }
@@ -579,7 +579,7 @@ input::-moz-placeholder {
     }
 }
 /********************* max-width: 767px *****************************************/
-@media (min-width: 576px) and (max-width: 767px){
+@media (max-width: 767px){
     .spanburger{
         display:block;
     }
