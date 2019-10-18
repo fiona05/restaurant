@@ -558,7 +558,7 @@ input::-moz-placeholder {
         min-height:930px;
     }
     .bg-service-title{
-        width: 210px;
+        width: 180px;
     }
     .title-service{
         font-size: 1.8em;
@@ -570,7 +570,7 @@ input::-moz-placeholder {
         font-size: 1.8em;
     }
     .footer-col{
-        width: 240px;
+        width: 180px;
         padding: 0 10px;
     }
 }
@@ -680,7 +680,7 @@ input::-moz-placeholder {
     
 /********************* max-width: 575px *****************************************/
 @media (max-width: 575px){
-    .spanburger{
+    .spanburger{               /* menu burger */
         display:block;
     }
 
@@ -777,6 +777,8 @@ input::-moz-placeholder {
 
     #menuToggle input:checked ~ ul{
     transform: none;
-    }
+    }           /* fin menu burger */
+
+    
 }
     
