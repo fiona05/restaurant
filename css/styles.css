@@ -691,10 +691,9 @@ input::-moz-placeholder {
         margin: 16px 0 25px 0;
     }
     
-    
     /* media query container latest-work */
     .mq-container-lw{
-        width: 86%;
+        width: 40%;
     }
 
     /* media query container service */
