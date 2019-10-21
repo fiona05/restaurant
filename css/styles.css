@@ -569,6 +569,9 @@ input::-moz-placeholder {
         width: 250px;
         height: 250px;
     }
+    .service-space-responsive{
+        justify-content: space-around;
+    }
     .bg-service-title{
         width: 30%;
         margin: 10px 20px 20px 20px;
