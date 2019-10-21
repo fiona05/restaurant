@@ -258,7 +258,11 @@ header{
 .prev{
     left: 15px;
 }
-  
+
+.prev-resp, .next-resp{
+    display: none;
+}
+
 /* animation */
 .fade {
     -webkit-animation-name: fade;
@@ -744,7 +748,7 @@ input::-moz-placeholder {
         font-size: 1.3rem;
         margin: 15px
     }
-    
+
     .footer-col{
         font-size: 3rem;
         text-align: center;
