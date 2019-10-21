@@ -682,13 +682,6 @@ input::-moz-placeholder {
     transform: none;
     }
 
-    /* #menuToggle ul:not(checked){
-        display: none;
-    }
-    #menuToggle ul:checked{
-        display: block;
-    } */
-
     /* media query container carousel */
     .mq-container-carousel{
         text-align: center;
@@ -731,11 +724,6 @@ input::-moz-placeholder {
         display: block;
         margin: 20px 0 0 30px;
     }
-    
-    /* media query container latest-work */
-
-    /* media query container service */
-
 
     .title-service{
         font-size: 2rem;
@@ -864,8 +852,24 @@ input::-moz-placeholder {
 
     #menuToggle input:checked ~ ul{
     transform: none;
-    }           
+    }
+         
     /* fin menu burger */
 
+    .title-carrou{
+        font-size: 40px;
+        margin: 0;
+    }
+    .service-space-responsive{
+        align-items: center;
+        flex-direction: column;
+    }
+    .bg-service-title{
+        width: 70%;
+    }
+    .title-latest-work{
+        font-size: 1.6em;
+    }
+    
 }
     
