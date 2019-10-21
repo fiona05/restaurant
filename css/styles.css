@@ -165,6 +165,10 @@ ul > li.active{
     line-height: 4px;
 }
 
+.text-nav{
+    font-size: 0.8em;
+}
+
 .text-link-green{
     font-size: 17.33px;
     color: var(--green);
@@ -195,6 +199,7 @@ ul > li.active{
 .text-service{
     font-size: 1em;
     margin: 0;
+    padding: 5px;
 }
 
 .title-footer{
@@ -224,8 +229,6 @@ header{
     background-color: var(--dark-red);
 }
 
-
-
 /***** carousel *****/
 .slide{
     border: 26px solid #6b6b6b;
@@ -250,7 +253,6 @@ header{
     transition: 0.6s ease;
     user-select: none;
 }
-
 .prev{
     left: 15px;
 }
@@ -299,7 +301,7 @@ main{
 
 .bg-service-title{
     background-color: var(--white);
-    height: 300px;
+    min-height: 300px;
     width: 225px;
 } 
 
@@ -345,6 +347,7 @@ main{
     border-radius: 10px;
     margin: 0 auto;
     padding: 5px; 
+    font-weight: normal;
 }
 
 .div-photo-size{
@@ -518,51 +521,52 @@ input::-moz-placeholder {
     padding: 10px 0;
 }
 
+
 /************************** MEDIAQUERIES *********************************/
 
 /********************* max-width: 1200px *****************************************/
 @media (max-width: 1200px){
+    .bg-service-title{
+        width: 180px;
+    }
+    .div-nav-responsive{
+        width: 100%;
+    }
+    .nav-responsive{
+        justify-content: space-between;
+    }
+    .latest-work-responsive{
+        justify-content: space-around;
+    }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    } 
+    .footer-col{
+        width: 40%;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 /********************* max-width: 991px *****************************************/
 @media (max-width: 991px){
-    header{
-        min-height: 400px;
-    }
-    .container{
-        width: 100%;
-    }
     .title-carrou{
         font-size: 40px;
     }
     .text-carrou{
         font-size: 16px;
     }
-    .button{
-        width: 130px;
-    }
     .slide{
         width: 250px;
         height: 250px;
     }
-    main{
-        min-height:930px;
-    }
     .bg-service-title{
-        width: 210px;
+        width: 30%;
+        margin: 10px 20px 20px 20px;
     }
+
     .title-service{
-        font-size: 1.8em;
-    }
-    .latest-work{
-        min-height: 530px;
-    }
-    .title-latest-work{
-        font-size: 1.8em;
-    }
-    .footer-col{
-        width: 240px;
-        padding: 0 10px;
+        font-size: 1.7em;
     }
 }
 /********************* max-width: 767px *****************************************/
@@ -705,7 +709,7 @@ input::-moz-placeholder {
     
 /********************* max-width: 575px *****************************************/
 @media (max-width: 575px){
-    .spanburger{
+    .spanburger{               /* menu burger */
         display:block;
     }
 
@@ -802,6 +806,8 @@ input::-moz-placeholder {
 
     #menuToggle input:checked ~ ul{
     transform: none;
-    }
+    }           /* fin menu burger */
+
+
 }
     
