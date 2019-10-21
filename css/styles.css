@@ -36,6 +36,8 @@ body{
     margin: 0;
     padding: 15px;
 }
+
+
 /*---------- background system ----------******************************/
 
 .bg-color-dark-red{
@@ -82,15 +84,6 @@ body{
     width: 80%;
     max-width: 960px;
     margin: 0 auto;
-}
-
-/* .col{
-    margin: 0;
-    padding: 15px;
-} */
-
-.w-5{
-    min-width: 33px;
 }
 
 /*---------- flex system ----------*******************************/
@@ -189,7 +182,7 @@ ul > li.active{
 }
 
 .text-carrou{
-    font-size: 14px;
+    font-size: 13px;
     line-height: 23px;
     color: #979797;
     margin: 16px 0 25px 0;
@@ -265,7 +258,11 @@ header{
 .prev{
     left: 15px;
 }
-  
+
+.prev-resp, .next-resp{
+    display: none;
+}
+
 /* animation */
 .fade {
     -webkit-animation-name: fade;
@@ -555,6 +552,7 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
+
 }
 
 /********************* max-width: 991px *****************************************/
@@ -568,6 +566,9 @@ input::-moz-placeholder {
     .slide{
         width: 250px;
         height: 250px;
+    }
+    .service-space-responsive{
+        justify-content: space-around;
     }
     .bg-service-title{
         width: 30%;
@@ -594,6 +595,7 @@ input::-moz-placeholder {
     color: var(--green);
     } 
 
+    /* menu burger mobile */
     #menuToggle{
     display: block;
     position: absolute;
@@ -680,6 +682,85 @@ input::-moz-placeholder {
     #menuToggle input:checked ~ ul{
     transform: none;
     }
+
+    /* media query container carousel */
+    .mq-container-carousel{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .text-carrou-read{
+        margin: 0 auto;
+    }
+    
+    .fd-column-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .slide{
+        margin: 10px 0 20px 0;
+    }
+    
+    .title-carrou{
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .text-carrou{
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+    
+    .prev-resp{
+        margin: 20px 30px 0 0;
+    }
+
+    .next-resp{
+        margin: 20px 0 0 30px;
+    }
+
+    
+    /* media query container latest-work */
+    .mq-container-lw{
+        width: 40%;
+    }
+
+    /* media query container service */
+    .mq-container-service{
+        width: 63%;
+    }
+
+    .bg-service-title{
+        width: 40%;
+    }
+
+    .title-service{
+        font-size: 2rem;
+        margin: 15px;
+    }
+
+    .text-service{
+        font-size: 1.3rem;
+        margin: 15px
+    }
+
+    .footer-col{
+        font-size: 3rem;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul > li{
+        font-size: 20px;
+    }
+
 }
     
 /********************* max-width: 575px *****************************************/
@@ -781,8 +862,8 @@ input::-moz-placeholder {
 
     #menuToggle input:checked ~ ul{
     transform: none;
-    }           /* fin menu burger */
-
+    }           
+    /* fin menu burger */
 
 }
     
