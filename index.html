@@ -15,14 +15,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Facebook -->
     <meta property="og:locale" content="fr_FR">
-    <meta property="og:url" content="http://quentinp364.promo-vesoul33.codeur.online/restaurant/index.html">
+    <meta property="og:url" content="http://fionap.promo-vesoul33.codeur.online/restaurant/index.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="The Modernist restaurant / Cuisine de saison et gastronomique / Montréal">
     <meta property="og:description" content="Bienvenue sur le site du restaurant The Modernist à
     Monréal - Cuisine de saison et gastronomique, consultez des avis clients et
     réservez en ligne votre table.">
     <meta property="og:site_name" content="The Modernist restaurant">
-    <meta property="og:image" content="http://quentinp364.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
+    <meta property="og:image" content="http://fionap.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
     <meta property="og:image:width" content="380">
     <meta property="og:image:height" content="380">
     <meta property="og:image:alt" content="facebook_partage">
@@ -33,7 +33,7 @@
     Monréal - Cuisine de saison et gastronomique, consultez des avis clients et
     réservez en ligne votre table.">
     <meta name="twitter:site" content="https://twitter.com/The_Modernist_restaurant">
-    <meta name="twitter:image" content="http://quentinp364.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
+    <meta name="twitter:image" content="http://fionap.promo-vesoul33.codeur.online/restaurant/media/slide-1.png">
     <meta name="twitter:creator" content="">
 
 </head>
@@ -41,14 +41,14 @@
 <body>
     <!-- Header section -->
     <header class="container-fluid">
-        <div class="row header-row">
-            <div class="container d-flex f-justify-content-between f-align-items-center">
+        <div class="header-menu">
+            <div class="container d-flex f-justify-content-between f-align-items-center f-wrap">
                 <div class="col">
-                    <h1 class="title-header"><a>The Modernist</a></h1>
+                    <h1 class="title-header"><a href="#">The Modernist</a></h1>
                     <p class="subtitle-header">Free PSD Website Template</p>
                 </div>
                 <div class="col">
-                    <nav role="navigation">
+                    <nav>
                         <div id="menuToggle">
                             <input type="checkbox" id="input-checkbox"/>
                             <span class="spanburger"></span>
@@ -66,27 +66,51 @@
                     </nav>
                 </div>
             </div>
-            <div class="container-fluid">
-                <div class="row slideshow bg-color-dark-red">
-                    <div class="container d-flex f-justify-content-between f-align-items-center">
-                        <div class="col">
-                            <p class="title-carrou">Cursus penati saccum nulla.</p>
-                            <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
-                            <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
-                        </div>
-                        <div class="col">
-                            <img src="media/slide-1.png" alt="plate" width="380" height="380" class="slide">
-                        </div>
+            <div class="mySlides fade">
+                <div class="container d-flex f-justify-content-between f-align-items-center">
+                    <div class="col">
+                        <p class="title-carrou">Cursus penati saccum nulla.</p>
+                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                    </div>
+                    <div class="col">
+                        <img src="media/slide-1.png" alt="plate" width="380" height="380" class="slide">
+                    </div>
+                </div>               
+            </div>
+            <div class="mySlides fade">
+                <div class="container d-flex f-justify-content-between f-align-items-center">
+                    <div class="col">
+                        <p class="title-carrou">Mozzarella sur son lit de verdure.</p>
+                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                    </div>
+                    <div class="col">
+                        <img src="media/slide-2.png" alt="plate-salad" width="380" height="380" class="slide">
                     </div>
                 </div>
             </div>
+            <div class="mySlides fade">
+                <div class="container d-flex f-justify-content-between f-align-items-center">
+                    <div class="col">
+                        <p class="title-carrou">Poulet truffé d'oignons.</p>
+                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                    </div>
+                    <div class="col">
+                        <img src="media/slide-3.png" alt="plate-chicken" width="380" height="380" class="slide">
+                    </div>
+                </div>    
+            </div>
+            <!-- green arrow next and previous -->
+            <a class="prev" onclick="plusSlides(-1)"><img src="media/arrow-left.png" alt="left-arrow" width="15" height="28"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="media/arrow-right.png" alt="right-arrow" width="15" height="28"></a>
         </div>
     </header>
     <!-- Service section -->
-    <main class="bg-color-light-red container-fluid">
+    <main class="container-fluid bg-color-light-red">
         <div class="section-service-size">
-            <div >
-            <div class="container container-service-pdg d-flex f-justify-content-between font-color text-align-center">
+            <div class="container f-wrap container-service-pdg d-flex f-justify-content-between font-color text-align-center">
                 <div class="d-flex f-column f-align-items-center bg-service-title">
                     <a href="#"><p class="mrg-img"><img src="media/service-logo-1.png" class="opacity-img" alt="picture-plan-draw" width="120" height="120"></p>
                                 <p class="text-upper title-service">service title</p>
@@ -122,7 +146,7 @@
             <div class="border"></div>
 
             <!-- <h2 class="title-latest-work">LATEST WORK</h2> -->
-            <div class="d-flex f-justify-content-between f_wrap">
+            <div class="d-flex f-justify-content-between f-wrap">
                 <a href="#" target="_blank">
                     <div class="div-photo-size img-div-photo-size1 d-flex">
                         <p class="latest-work-p">LOREM IPSUM DOLOR</p>
@@ -219,6 +243,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/carousel.js" async></script>
     <script src="js/script.js"></script>
 </body>
 
