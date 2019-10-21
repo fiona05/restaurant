@@ -757,6 +757,10 @@ input::-moz-placeholder {
         padding: 0;
     }
 
+    .subtitle-footer, .subtitle-footer-admin{
+        font-size: 0.9rem;
+    }
+
     ul > li{
         font-size: 20px;
     }
