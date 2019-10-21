@@ -74,7 +74,7 @@ function verif() {
     // var smallMessage = document.getElementById('message');
     if (full_name.value.length < 2) {
         alert("Please indicate your full name");
-        document.getElementById("full_name").focus();
+        full_name.focus();
         return false;
     }
 

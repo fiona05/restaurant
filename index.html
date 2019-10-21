@@ -42,76 +42,91 @@
     <!-- Header section -->
     <header class="container-fluid">
         <div class="header-menu">
-            <div class="container d-flex f-justify-content-between f-align-items-center f-wrap">
+            <div class="container d-flex f-justify-content-between f-align-items-center f-wrap-responsive">
                 <div class="col">
                     <h1 class="title-header"><a href="#">The Modernist</a></h1>
                     <p class="subtitle-header">Free PSD Website Template</p>
                 </div>
-                <div class="col">
+                <div class="col div-nav-responsive">
                     <nav>
                         <div id="menuToggle">
                             <input type="checkbox" id="input-checkbox"/>
                             <span class="spanburger"></span>
                             <span class="spanburger"></span>
                             <span class="spanburger"></span>
-                            <ul class="d-flex text-upper" id="menu">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#">Style Demo</a></li>
-                                <li><a href="#">Full Width</a></li>
-                                <li><a href="#">Dropdown</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Gallery</a></li>
+                            <ul class="d-flex text-upper nav-responsive" id="menu">
+                                <li class="active text-nav"><a href="#">Home</a></li>
+                                <li class="text-nav"><a href="#">Style Demo</a></li>
+                                <li class="text-nav"><a href="#">Full Width</a></li>
+                                <li class="text-nav"><a href="#">Dropdown</a></li>
+                                <li class="text-nav"><a href="#">Portfolio</a></li>
+                                <li class="text-nav"><a href="#">Gallery</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
             <div class="mySlides fade">
-                <div class="container d-flex f-justify-content-between f-align-items-center">
-                    <div class="col">
-                        <p class="title-carrou">Cursus penati saccum nulla.</p>
-                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
-                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
-                    </div>
-                    <div class="col">
-                        <img src="media/slide-1.png" alt="plate" width="380" height="380" class="slide">
-                    </div>
-                </div>               
-            </div>
-            <div class="mySlides fade">
-                <div class="container d-flex f-justify-content-between f-align-items-center">
-                    <div class="col">
-                        <p class="title-carrou">Mozzarella sur son lit de verdure.</p>
-                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
-                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
-                    </div>
-                    <div class="col">
-                        <img src="media/slide-2.png" alt="plate-salad" width="380" height="380" class="slide">
+                    <div class="container d-flex f-justify-content-between f-align-items-center">
+                        <div class="col">
+                            <a class="prev" onclick="plusSlides(-1)"><img src="media/arrow-left.png" class="left-arrow" alt="left-arrow" width="15" height="28"></a>
+                        </div>
+                        <div class="col">
+                            <p class="title-carrou">Cursus penati saccum nulla.</p>
+                            <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                            <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                        </div>
+                        <div class="col">
+                            <img src="media/slide-1.png" alt="plate-fries" width="380" height="380" class="slide"></img>
+                        </div>
+                        <div class="col">
+                            <a class="next" onclick="plusSlides(1)"><img src="media/arrow-right.png" alt="right-arrow" width="15" height="28"></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="mySlides fade">
-                <div class="container d-flex f-justify-content-between f-align-items-center">
-                    <div class="col">
-                        <p class="title-carrou">Poulet truffé d'oignons.</p>
-                        <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
-                        <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                <div class="mySlides fade">
+                    <div class="container d-flex f-justify-content-between f-align-items-center">
+                        <div class="col">
+                            <a class="prev" onclick="plusSlides(-1)"><img src="media/arrow-left.png" class="left-arrow" alt="left-arrow" width="15" height="28"></a>
+                        </div>        
+                        <div class="col">
+                            <p class="title-carrou">Mozzarella sur sa verdure.</p>
+                            <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                            <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                        </div>
+                        <div class="col">
+                            <img src="media/slide-2.png" alt="plate-salad" width="380" height="380" class="slide"></img>
+                        </div>
+                        <div class="col">
+                            <a class="next" onclick="plusSlides(1)"><img src="media/arrow-right.png" alt="right-arrow" width="15" height="28"></a>
+                        </div>
                     </div>
-                    <div class="col">
-                        <img src="media/slide-3.png" alt="plate-chicken" width="380" height="380" class="slide">
-                    </div>
-                </div>    
-            </div>
-            <!-- green arrow next and previous -->
-            <a class="prev" onclick="plusSlides(-1)"><img src="media/arrow-left.png" alt="left-arrow" width="15" height="28"></a>
-            <a class="next" onclick="plusSlides(1)"><img src="media/arrow-right.png" alt="right-arrow" width="15" height="28"></a>
+                </div>
+                <div class="mySlides fade">
+                    <div class="container d-flex f-justify-content-between f-align-items-center">
+                        <div class="col">
+                            <a class="prev" onclick="plusSlides(-1)"><img src="media/arrow-left.png" class="left-arrow" alt="left-arrow" width="15" height="28"></a>
+                        </div>        
+                        <div class="col">
+                            <p class="title-carrou">Poulet truffé d'oignons.</p>
+                            <p class="text-carrou">Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.</p>
+                            <p class="text-carrou-read button"><a href="#">Read More Here »</a></p>
+                        </div>
+                        <div class="col">
+                            <img src="media/slide-3.png" alt="plate-chicken" width="380" height="380" class="slide"></img>
+                        </div>
+                        <div class="col">
+                            <a class="next" onclick="plusSlides(1)"><img src="media/arrow-right.png" alt="right-arrow" width="15" height="28"></a>
+                        </div>
+                    </div>    
+                </div>
         </div>
     </header>
     <!-- Service section -->
     <main class="container-fluid bg-color-light-red">
         <div class="section-service-size">
             <div class="container f-wrap container-service-pdg d-flex f-justify-content-between font-color text-align-center">
-                <div class="d-flex f-column f-align-items-center bg-service-title">
+                <div class="d-flex f-column f-align-items-center bg-service-title bg-responsive">
                     <a href="#"><p class="mrg-img"><img src="media/service-logo-1.png" class="opacity-img" alt="picture-plan-draw" width="120" height="120"></p>
                                 <p class="text-upper title-service">service title</p>
                                 <p class="text-service ">Vestassapede et donec ut est libe ros sus et eget sed eget quisq ueta habitur augue</p>
@@ -146,7 +161,7 @@
             <div class="border"></div>
 
             <!-- <h2 class="title-latest-work">LATEST WORK</h2> -->
-            <div class="d-flex f-justify-content-between f-wrap">
+            <div class="d-flex f-justify-content-between f-wrap latest-work-responsive">
                 <a href="#" target="_blank">
                     <div class="div-photo-size img-div-photo-size1 d-flex">
                         <p class="latest-work-p">LOREM IPSUM DOLOR</p>
@@ -162,7 +177,7 @@
                         <p class="latest-work-p">LOREM IPSUM DOLOR</p>
                     </div>
                 </a>
-                <a href="media/1.jpg" target="_blank">
+                <a href="#" target="_blank">
                     <div class="div-photo-size img-div-photo-size4 d-flex">
                         <p class="latest-work-p">LOREM IPSUM DOLOR</p>
                     </div>
@@ -184,7 +199,7 @@
     <!-- Footer section -->
     <footer>
         <div class="container-fluid footer-height bg-color-medium-grey ">
-            <div class="container footer-pdg d-flex f-justify-content-between">
+            <div class="container footer-pdg f-wrap-responsive d-flex f-justify-content-between">
                 <div class="footer-col">
                     <p class="title-footer">From the blog</p>
                     <p class="text-link-green">Post Title</p>
@@ -220,7 +235,7 @@
                         penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoremut
                         vitae doloreet 1 day ago</p>
                 </div>
-                <div class="footer-col">
+                <div class="footer-col footer-col-form">
                     <p class="title-footer">Contact Us</p>
                     <form onsubmit="return verif()">
                         <input type="text" class="input" placeholder="Full name" id="full_name"
