@@ -659,12 +659,12 @@ input::-moz-placeholder {
     #menu{
     flex-direction: column;
     position: absolute;
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
     margin: -100px 0 0 0px;
     padding: 30px; 
     padding-top: 110px;
-    right: -70px;
+    right: -100px;
     background: #202020f1;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -698,7 +698,7 @@ input::-moz-placeholder {
     }
 
     .slide{
-        margin: 10px 0 20px 0;
+        margin: 0;
     }
     
     .title-carrou{
@@ -708,7 +708,7 @@ input::-moz-placeholder {
 
     .text-carrou{
         font-size: 20px;
-        line-height: 35px;
+        line-height: 25px;
     }
 
     .prev, .next {
