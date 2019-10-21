@@ -716,18 +716,9 @@ input::-moz-placeholder {
     }
     
     /* media query container latest-work */
-    .mq-container-lw{
-        width: 40%;
-    }
 
     /* media query container service */
-    .mq-container-service{
-        width: 63%;
-    }
 
-    .bg-service-title{
-        width: 40%;
-    }
 
     .title-service{
         font-size: 2rem;
