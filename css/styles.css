@@ -593,16 +593,6 @@ input::-moz-placeholder {
         display:block;
     }
 
-    a{
-    text-decoration: none;
-    color: #232323;
-    transition: color 0.3s ease;
-    }
-
-    a:hover{
-    color: var(--green);
-    } 
-
     /* menu burger mobile */
     #menuToggle{
     display: block;
@@ -669,12 +659,13 @@ input::-moz-placeholder {
     #menu{
     flex-direction: column;
     position: absolute;
-    width: 300px;
+    width: 90vw;
+    height: 100vh;
     margin: -100px 0 0 0px;
     padding: 30px; 
     padding-top: 110px;
     right: -70px;
-    background: #20202073;
+    background: #202020f1;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -684,7 +675,7 @@ input::-moz-placeholder {
 
     #menu li{
     padding: 10px 0;
-    font-size: 22px;
+    font-size: 30px;
     }
 
     #menuToggle input:checked ~ ul{
@@ -732,27 +723,19 @@ input::-moz-placeholder {
     }
     
     .prev-resp{
+        display: block;
         margin: 20px 30px 0 0;
     }
 
     .next-resp{
+        display: block;
         margin: 20px 0 0 30px;
     }
-
     
     /* media query container latest-work */
-    .mq-container-lw{
-        width: 40%;
-    }
 
     /* media query container service */
-    .mq-container-service{
-        width: 63%;
-    }
 
-    .bg-service-title{
-        width: 40%;
-    }
 
     .title-service{
         font-size: 2rem;
@@ -770,6 +753,10 @@ input::-moz-placeholder {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .subtitle-footer, .subtitle-footer-admin{
+        font-size: 0.9rem;
     }
 
     ul > li{
@@ -862,7 +849,7 @@ input::-moz-placeholder {
     padding: 30px; 
     padding-top: 110px;
     right: -20px;
-    background: #20202073;
+    background: #20202071;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
