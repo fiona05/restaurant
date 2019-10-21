@@ -692,7 +692,8 @@ input::-moz-placeholder {
 @media (min-width: 576px) and (max-width: 767px){
     /* menu burger mobile */
     .spanburger{
-        display:block;
+    display:block;
+
     }
     #menuToggle{
     display: block;
@@ -769,66 +770,51 @@ input::-moz-placeholder {
     #menuToggle input:checked ~ ul{
     transform: none;
     }
-
-    /* media query container carousel */
     .mq-container-carousel{
         text-align: center;
         margin: 0 auto;
         width: 100%;
     }
-
     .text-carrou-read{
         margin: 0 auto;
     }
-    
     .fd-column-reverse{
         flex-direction: column-reverse;
     }
-
     .slide{
-        margin: 10px 0 20px 0;
-        width: 250px;
-        height: 250px;
+        margin: 0;
     }
-    
+    .bg-service-title{
+        width: 40%;
+        margin: 10px 20px 20px 20px;
+    }
     .title-carrou{
         font-size: 50px;
         margin: 0;
     }
-
     .text-carrou{
         font-size: 20px;
-        line-height: 35px;
+        line-height: 25px;
     }
-
     .prev, .next {
         display: none;
     }
-    
     .prev-resp{
         display: block;
         margin: 20px 30px 0 0;
     }
-
     .next-resp{
         display: block;
         margin: 20px 0 0 30px;
     }
-
-    .bg-service-title {
-        width: 40%;
-    }
-
     .title-service{
         font-size: 2rem;
         margin: 15px;
     }
-
     .text-service{
         font-size: 1.3rem;
         margin: 15px
     }
-
     .footer-col{
         font-size: 3rem;
         text-align: center;
@@ -836,15 +822,24 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
-
+    .div-nav-responsive{
+        width: 100%;
+    }
+    .nav-responsive{
+        justify-content: space-between;
+    }
+    .latest-work-responsive{
+        justify-content: space-around;
+    }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    } 
     .subtitle-footer, .subtitle-footer-admin{
         font-size: 0.9rem;
     }
-
     ul > li{
         font-size: 20px;
     }
-
 }
     
 /********************* max-width: 575px *****************************************/
