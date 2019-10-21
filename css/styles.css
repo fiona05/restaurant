@@ -583,6 +583,9 @@ input::-moz-placeholder {
 }
 /********************* max-width: 767px *****************************************/
 @media (max-width: 767px){
+    body{
+        max-width: 767px;;
+    }
     .spanburger{
         display:block;
     }
@@ -785,7 +788,6 @@ input::-moz-placeholder {
     #menuToggle input:checked ~ ul{
     transform: none;
     }           /* fin menu burger */
-
 
 }
     
