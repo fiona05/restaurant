@@ -852,6 +852,7 @@ input::-moz-placeholder {
 
     #menu{
     flex-direction: column;
+    
     position: absolute;
     width: 300px;
     margin: -100px 0 0 0px;
