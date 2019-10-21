@@ -464,6 +464,7 @@ main{
     border-radius: 10px;
     background-color: var(--dark-grey);
     color: var(--white);
+    box-sizing: border-box;
 }
 
 .textarea{
@@ -475,6 +476,7 @@ main{
     background-color: var(--dark-grey);
     padding-left: 10px;
     color: var(--white);
+    box-sizing: border-box;
 }
 
 textarea::-webkit-input-placeholder {
