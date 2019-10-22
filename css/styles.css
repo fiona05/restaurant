@@ -788,7 +788,6 @@ input::-moz-placeholder {
     .text-carrou-read{
         margin: 0 auto;
     }
-
     .fd-column-reverse{
         flex-direction: column-reverse;
     }
@@ -801,26 +800,21 @@ input::-moz-placeholder {
     ul > li{
         font-size: 20px;
     }
-
     .title-carrou{
         font-size: 50px;
         margin: 0;
     }
-
     .text-carrou{
         font-size: 20px;
         line-height: 25px;
     }
-
     .prev, .next {
         display: none;
     }
-
     .prev-resp{
         display: block;
         margin: 20px 30px 0 0;
     }
-
     .next-resp{
         display: block;
         margin: 20px 0 0 30px;
@@ -836,10 +830,12 @@ input::-moz-placeholder {
         font-size: 2rem;
         margin: 15px;
     }
-
     .text-service{
         font-size: 1.3rem;
         margin: 15px
+    }
+    .latest-work{
+        padding-top: 20px;
     }
     .latest-work-responsive{
         justify-content: space-around;
@@ -1026,6 +1022,9 @@ input::-moz-placeholder {
         flex-wrap: nowrap; */
         justify-content: flex-end;
         /* box-sizing: border-box;  */
+    }
+    .latest-work{
+        padding-top: 20px;
     }
     .latest-work-responsive{
         /* justify-content: center; */
