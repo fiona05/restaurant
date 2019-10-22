@@ -684,13 +684,13 @@ input::-moz-placeholder {
         padding: 0;
     }
 }
-/********************* max-width: 767px *****************************************/
+/********************** min-width: 576px max-width: 767px ******************************/
 @media (min-width: 576px) and (max-width: 767px){
     /* menu burger mobile */
     .spanburger{
     display:block;
-
     }
+
     #menuToggle{
     display: block;
     position: absolute;
@@ -700,6 +700,7 @@ input::-moz-placeholder {
     -webkit-user-select: none;
     user-select: none;
     }
+
     #menuToggle input{
     display: block;
     width: 40px;
@@ -712,6 +713,7 @@ input::-moz-placeholder {
     z-index: 2; 
     -webkit-touch-callout: none; 
     }
+
     #menuToggle span{
     display: block;
     width: 33px;
@@ -725,24 +727,30 @@ input::-moz-placeholder {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
     background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
     }
+
     #menuToggle span:first-child{
     transform-origin: 0% 0%;
     }
+
     #menuToggle span:nth-last-child(2){
     transform-origin: 0% 100%;
     }
+
     #menuToggle input:checked ~ span{
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #ffffff;
     }
+
     #menuToggle input:checked ~ span:nth-last-child(3){
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
     }
+
     #menuToggle input:checked ~ span:nth-last-child(2){
     transform: rotate(-45deg) translate(0, -1px);
     }
+
     #menu{
     flex-direction: column;
     position: absolute;
@@ -759,10 +767,12 @@ input::-moz-placeholder {
     transform: translate(100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
+
     #menu li{
     padding: 10px 0;
     font-size: 30px;
     }
+
     #menuToggle input:checked ~ ul{
     transform: none;
     }                  /*fin menu burger*/
@@ -778,6 +788,7 @@ input::-moz-placeholder {
     .text-carrou-read{
         margin: 0 auto;
     }
+
     .fd-column-reverse{
         flex-direction: column-reverse;
     }
@@ -790,21 +801,26 @@ input::-moz-placeholder {
     ul > li{
         font-size: 20px;
     }
+
     .title-carrou{
         font-size: 50px;
         margin: 0;
     }
+
     .text-carrou{
         font-size: 20px;
         line-height: 25px;
     }
+
     .prev, .next {
         display: none;
     }
+
     .prev-resp{
         display: block;
         margin: 20px 30px 0 0;
     }
+
     .next-resp{
         display: block;
         margin: 20px 0 0 30px;
@@ -820,6 +836,7 @@ input::-moz-placeholder {
         font-size: 2rem;
         margin: 15px;
     }
+
     .text-service{
         font-size: 1.3rem;
         margin: 15px
@@ -872,7 +889,7 @@ input::-moz-placeholder {
     height: 32px;
     position: absolute;
     top: -7px; 
-    left: -5px;
+    left: 38px;
     cursor: pointer;
     opacity: 0; 
     z-index: 2; 
@@ -884,6 +901,7 @@ input::-moz-placeholder {
     height: 4px;
     margin-bottom: 5px;
     position: relative;
+    right: -45px;
     background: var(--green);
     border-radius: 3px;
     z-index: 1;
