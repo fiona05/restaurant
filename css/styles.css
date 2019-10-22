@@ -678,9 +678,6 @@ input::-moz-placeholder {
     .latest-work-responsive{
         justify-content: space-around;
     }
-    .f-wrap-responsive{
-        flex-wrap: wrap;
-    } 
     .footer-col{
         width: 40%;
         margin: 0;
@@ -939,6 +936,9 @@ input::-moz-placeholder {
     .container{
         width:90%;
     }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    }
     .text-carrou-read{
         margin: 0 auto;
     }
@@ -956,6 +956,8 @@ input::-moz-placeholder {
     }
     .slide{
         margin: 0;
+        width: 100%;
+        height: 100%;
     }
     .title-carrou{
         font-size: 60px;
@@ -1002,9 +1004,6 @@ input::-moz-placeholder {
     }
     .latest-work-responsive{
         justify-content: space-around;
-    }
-    .f-wrap-responsive{
-        flex-wrap: wrap;
     } 
     .title-latest-work {
         font-size: 2em;
