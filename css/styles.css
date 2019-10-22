@@ -974,6 +974,7 @@ input::-moz-placeholder {
     }
     .slide{
         margin: 0;
+        box-sizing: border-box;
         width: 100%;
         height: 100%;
     }
@@ -1015,8 +1016,8 @@ input::-moz-placeholder {
     }
     .div-photo-size{
         width: 100%;
-        min-height: 229px;   
-        border: 5px solid white;
+        min-height: 350px;  
+        border: 2px solid white;
         margin-bottom: 20px;
         background-position: center;
         background-size: cover; 
