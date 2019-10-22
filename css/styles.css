@@ -459,7 +459,7 @@ main{
     width: 100%;
     height: 34px;
     margin-bottom: 15px;
-    padding-left: 10px;
+    padding-left: 10px; 
     border: none;
     border-radius: 10px;
     background-color: var(--dark-grey);
@@ -995,18 +995,37 @@ input::-moz-placeholder {
         font-size: 1.3rem;
         margin: 15px
     }
+    .div-photo-size{
+        width: 100%;
+        min-height: 229px;   
+        border: 5px solid white;
+        margin-bottom: 20px;
+        background-position: center;
+        background-size: cover; 
+        box-sizing: border-box;
+        /* flex-direction: column;
+        flex-wrap: nowrap; */
+        justify-content: flex-end;
+        /* box-sizing: border-box;  */
+    }
+    .latest-work-responsive{
+        /* justify-content: center; */
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+    }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    } 
+    .title-latest-work {
+        font-size: 2em;
+    }
     .footer-col{
         font-size: 3rem;
         text-align: center;
         width: 100%;
         margin: 0;
         padding: 0;
-    }
-    .latest-work-responsive{
-        justify-content: space-around;
-    } 
-    .title-latest-work {
-        font-size: 2em;
     }
     .subtitle-footer, .subtitle-footer-admin, .text-link-green{
         font-size: 18px;
