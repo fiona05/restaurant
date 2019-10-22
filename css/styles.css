@@ -542,14 +542,14 @@ input::-moz-placeholder {
 
 /********************* max-width: 1200px *****************************************/
 @media (min-width: 992px) and (max-width: 1200px){
-    .bg-service-title{
-        width: 180px;
-    }
     .div-nav-responsive{
         width: 100%;
     }
     .nav-responsive{
         justify-content: space-between;
+    }
+    .bg-service-title{
+        width: 180px;
     }
     .latest-work-responsive{
         justify-content: space-around;
@@ -562,7 +562,6 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
-
 }
 
 /********************* max-width: 991px *****************************************/
@@ -645,7 +644,7 @@ input::-moz-placeholder {
     }
     #menuToggle input:checked ~ ul{
     transform: none;
-    }            /* fin burger*/
+    }            /*fin menu burger*/
 
     .container{
         width:90%;
@@ -769,7 +768,8 @@ input::-moz-placeholder {
     }
     #menuToggle input:checked ~ ul{
     transform: none;
-    }
+    }                  /*fin menu burger*/
+
     .mq-container-carousel{
         text-align: center;
         margin: 0 auto;
@@ -784,12 +784,14 @@ input::-moz-placeholder {
     .fd-column-reverse{
         flex-direction: column-reverse;
     }
-    .slide{
-        margin: 0;
+    .div-nav-responsive{
+        width: 100%;
     }
-    .bg-service-title{
-        width: 40%;
-        margin: 10px 20px 20px 20px;
+    .nav-responsive{
+        justify-content: space-between;
+    }
+    ul > li{
+        font-size: 20px;
     }
     .title-carrou{
         font-size: 50px;
@@ -810,6 +812,13 @@ input::-moz-placeholder {
         display: block;
         margin: 20px 0 0 30px;
     }
+    .slide{
+        margin: 0;
+    }
+    .bg-service-title{
+        width: 40%;
+        margin: 10px 20px 20px 20px;
+    }
     .title-service{
         font-size: 2rem;
         margin: 15px;
@@ -818,6 +827,15 @@ input::-moz-placeholder {
         font-size: 1.3rem;
         margin: 15px
     }
+    .latest-work-responsive{
+        justify-content: space-around;
+    }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    } 
+    .title-latest-work {
+        font-size: 2em;
+    }
     .footer-col{
         font-size: 3rem;
         text-align: center;
@@ -825,23 +843,14 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
-    .div-nav-responsive{
-        width: 100%;
+    .subtitle-footer, .subtitle-footer-admin, .text-link-green{
+        font-size: 18px;
     }
-    .nav-responsive{
-        justify-content: space-between;
-    }
-    .latest-work-responsive{
-        justify-content: space-around;
-    }
-    .f-wrap-responsive{
-        flex-wrap: wrap;
-    } 
-    .subtitle-footer, .subtitle-footer-admin{
-        font-size: 0.9rem;
-    }
-    ul > li{
+    .text-footer{
         font-size: 20px;
+    }
+    .input, .textarea{
+        font-size: 16px;
     }
 }
     
@@ -925,7 +934,7 @@ input::-moz-placeholder {
     }
     #menuToggle input:checked ~ ul{
     transform: none;
-    }
+    }        /*fin menu burger*/
     
     .container{
         width:90%;
@@ -936,22 +945,22 @@ input::-moz-placeholder {
     .fd-column-reverse{
         flex-direction: column-reverse;
     }
+    .div-nav-responsive{
+        width: 100%;
+    }
+    .nav-responsive{
+        justify-content: space-between;
+    }
+    ul > li{
+        font-size: 20px;
+    }
     .slide{
         margin: 0;
     }
-    
-    .bg-service-title{
-        width: 80%;
-        margin: 10px 20px 20px 20px;
-    }
-    .service-space-responsive{
-        align-items: center;
-        flex-direction: column;
-    }
-    
     .title-carrou{
-        font-size: 50px;
+        font-size: 60px;
         margin: 0;
+        text-align: center;
     }
     .text-carrou{
         font-size: 30px;
@@ -968,6 +977,14 @@ input::-moz-placeholder {
         display: block;
         margin: 20px 0 0 30px;
     }
+    .bg-service-title{
+        width: 80%;
+        margin: 10px 20px 20px 20px;
+    }
+    .service-space-responsive{
+        align-items: center;
+        flex-direction: column;
+    }
     .title-service{
         font-size: 2rem;
         margin: 15px;
@@ -983,26 +1000,24 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
-    .div-nav-responsive{
-        width: 100%;
-    }
-    .nav-responsive{
-        justify-content: space-between;
-    }
     .latest-work-responsive{
         justify-content: space-around;
     }
     .f-wrap-responsive{
         flex-wrap: wrap;
     } 
-    .subtitle-footer, .subtitle-footer-admin{
-        font-size: 0.9rem;
-    }
-    ul > li{
-        font-size: 20px;
-    }
     .title-latest-work {
         font-size: 2em;
     }
+    .subtitle-footer, .subtitle-footer-admin, .text-link-green{
+        font-size: 18px;
+    }
+    .text-footer{
+        font-size: 20px;
+    }
+    .input, .textarea{
+        font-size: 16px;
+    }
+    
 }
     
