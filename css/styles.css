@@ -548,6 +548,10 @@ input::-moz-placeholder {
     .nav-responsive{
         justify-content: space-between;
     }
+    .slide{
+        width: 250px;
+        height: 250px;
+    }
     .bg-service-title{
         width: 180px;
     }
@@ -683,6 +687,9 @@ input::-moz-placeholder {
         margin: 0;
         padding: 0;
     }
+    .f-wrap-responsive{
+        flex-wrap: wrap;
+    } 
 }
 /********************** min-width: 576px max-width: 767px ******************************/
 @media (min-width: 576px) and (max-width: 767px){
@@ -1053,6 +1060,9 @@ input::-moz-placeholder {
     }
     .input, .textarea{
         font-size: 16px;
+    }
+    .text-copyright{
+        font-size: 10px;
     }
     
 }
